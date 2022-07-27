@@ -18,10 +18,10 @@ public class Main{
       
       // If you want your input directly into an array you can use the following :
       	   
-	int[] arr = Stream.of(scanner.br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-	long[] arr = Stream.of(scanner.br.readLine().split(" ")).mapToLong(Long::parseLong).toArray();
-	double[] arr = Stream.of(scanner.br.readLine().split(" ")).mapToDouble(Double::parseDouble).toArray();
-	char[] arr = scanner.br.readLine().replace(" ","").toCharArray();
+	int[] arr = Stream.of(sc.br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+	long[] arr = Stream.of(sc.br.readLine().split(" ")).mapToLong(Long::parseLong).toArray();
+	double[] arr = Stream.of(sc.br.readLine().split(" ")).mapToDouble(Double::parseDouble).toArray();
+	char[] arr = sc.br.readLine().replace(" ","").toCharArray();
 	
 	// As a list
 	
