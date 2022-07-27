@@ -15,12 +15,20 @@ public class Main{
       double d   = sc.nextDouble();     // read input as double
       String str = sc.next();           // read input as String
       String s   = sc.nextLine();       // read whole line as String
+      
+      // If you want your input directly into an array you can use the following :
+      	   
+	int[] arr = Stream.of(scanner.br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+	long[] arr = Stream.of(scanner.br.readLine().split(" ")).mapToLong(Long::parseLong).toArray();
 
       int result = 3*n;
       out.println(result);                    // print via PrintWriter
       */
 
-      // Stop writing your solution here. -------------------------------------
+     // Stop writing your solution here. -------------------------------------
+	   
+	   
+
       out.close();
    }
 
