@@ -20,6 +20,13 @@ public class Main{
       	   
 	int[] arr = Stream.of(scanner.br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
 	long[] arr = Stream.of(scanner.br.readLine().split(" ")).mapToLong(Long::parseLong).toArray();
+	double[] arr = Stream.of(scanner.br.readLine().split(" ")).mapToDouble(Double::parseDouble).toArray();
+	char[] arr = scanner.br.readLine().replace(" ","").toCharArray();
+	
+	// As a list
+	
+	List<Integer> list = Stream.of(scanner.br.readLine().split(" ")).mapToInt(Integer::parseInt).boxed().collect(Collectors.toList());
+	List<Character> list = Stream.of(br.readLine().split(" ")).map(j -> j.charAt(0)).collect(Collectors.toList());
 
       int result = 3*n;
       out.println(result);                    // print via PrintWriter
