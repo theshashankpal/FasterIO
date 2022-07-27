@@ -19,17 +19,17 @@ public class Main {
       
       	// If you want your input directly into an array you can use the following :
       	   
-	int[] arr = sc.nextIntArray();
-	long[] arr = sc.nextLongArray();
-	double[] arr = sc.nextDoubleArray();
-	char[] arr = sc.nextCharArray();
+	int[] arr = sc.nextIntArray();		// read whole input line as int array
+	long[] arr = sc.nextLongArray();	// read whole input line as long array
+	double[] arr = sc.nextDoubleArray();	// read whole input line as double array
+	char[] arr = sc.nextCharArray();	// read whole input line as char array
 	
 	// As a list
 	
-	List<Integer> list = sc.nextIntList();
-	List<Long> list = sc.nextLongList();
-	List<Long> list = sc.nextDoubleList();
-	List<Character> list = sc.nextCharList();
+	List<Integer> list = sc.nextIntList();		// read whole input line as List<Integer>
+	List<Long> list = sc.nextLongList();		// read whole input line as List<Long>
+	List<Long> list = sc.nextDoubleList();		// read whole input line as List<Double>
+	List<Character> list = sc.nextCharList();	// read whole input line as List<Character>
 
         int result = 3*n;
         out.println(result);                    // print via PrintWriter
